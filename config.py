@@ -7,26 +7,26 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","20798317")
+API_HASH = getenv("API_HASH","82a94d416e05ca5cc3bc04da8494d7ca")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN",None) 
+BOT_TOKEN = getenv("BOT_TOKEN","7062907555:AAHQ1x_tyjHQZnYgzYkKF8SvGcP8Q4EC3Ps") 
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lipps Music Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lilly Music Bot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-#LOG_ID = int(getenv("LOG_ID", "-1001957871522"))
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+#LOG_ID = int(getenv("LOG_ID", "-1002055640243"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002055640243"))
 
 # Get this value from @RoseBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "2101893551"))
+OWNER_ID = int(getenv("OWNER_ID", "6439286014"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThinkGrowMore")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ThinkGrowMore")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DFSchinna")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DFSchinna")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
