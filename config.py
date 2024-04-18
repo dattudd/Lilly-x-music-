@@ -7,17 +7,17 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","20798317")
-API_HASH = getenv("API_HASH","82a94d416e05ca5cc3bc04da8494d7ca")
+API_ID = int(getenv("API_ID", "20798317")
+API_HASH = getenv("API_HASH", "82a94d416e05ca5cc3bc04da8494d7ca")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","7062907555:AAHQ1x_tyjHQZnYgzYkKF8SvGcP8Q4EC3Ps") 
+BOT_TOKEN = getenv("BOT_TOKEN", "7062907555:AAHQ1x_tyjHQZnYgzYkKF8SvGcP8Q4EC3Ps") 
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lilly Music Bot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://developervro:developerrapuka@cluster9.gcj9754.mongodb.net/?retryWrites=true&w=majority&appName=Cluster9")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
@@ -67,10 +67,10 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = getenv("STRING_SESSION", "BQE9W20AuOjegc8ZZTE1j8MwMm7CMTBgs0aKu7AyswLAo5CfgbckDoPcnkte5nYPAYGw-gMmUfvHhOOTLbycXo_rgOArhe8DlCrJZynUZtkNAN5TmTrStOTnK_kjEiP0CrYewTIRu76IQE4sBlzogZxzQpQq3OyX4sFwAlwHAUZ98crAki4c3KpL9MPgh6bLGnQiHmYPZ-ikgLB4nsmmwgCQ2R-ZhWHa9rda2KvEcu96hY09H7fHzabaGyAsQpyNpIctQMpGGrL373ARehj3ajwgn1sehaRACvAxrXnQV5itFyLnaU8JlgUxzC2mHsS32lp6w5NA6AMd4c0h2Zy2hFjjF2t13QAAAAGbCUdtAA")
-STRING2 = getenv("STRING_SESSION2",)
-STRING3 = getenv("STRING_SESSION3",)
-STRING4 = getenv("STRING_SESSION4",)
-STRING5 = getenv("STRING_SESSION5",)
+STRING2 = getenv("STRING_SESSION2", "")
+STRING3 = getenv("STRING_SESSION3", "")
+STRING4 = getenv("STRING_SESSION4", "")
+STRING5 = getenv("STRING_SESSION5", "")
 
 
 BANNED_USERS = filters.user()
