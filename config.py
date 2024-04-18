@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "20798317"))
 API_HASH = getenv("API_HASH", "82a94d416e05ca5cc3bc04da8494d7ca")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7062907555:AAEQw0KPEAvR3RYuuDnl3RCYq11IUbfJX80") 
+BOT_TOKEN = getenv("BOT_TOKEN", "7062907555:AAEXu6nEUaj3G3EcN_lOJqoF6djz30HN8uE") 
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lilly Music Bot")
